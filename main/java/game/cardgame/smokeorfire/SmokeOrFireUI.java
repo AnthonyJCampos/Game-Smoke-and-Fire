@@ -16,12 +16,11 @@ import javax.swing.JLabel;
 
 /**
  *
- * @author Antho
+ * @author Anthony Campos
  */
 public class SmokeOrFireUI extends javax.swing.JFrame {
-    /**
-	 * 
-	 */
+
+	
     private static final long serialVersionUID = 1L;
     private final int[] PlAYER_NUMBER = {0, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     private final int HANDSIZE = 4;
