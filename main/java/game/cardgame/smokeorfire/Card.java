@@ -8,7 +8,7 @@ package game.cardgame.smokeorfire;
 import javax.swing.ImageIcon;
 /**
  *
- * @author Antho
+ * @author Anthony Campos
  */
 public class Card {
    // Suits and Ranks of  Deck (Cannot be changed)
