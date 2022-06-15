@@ -1,13 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package game.cardgame.smokeorfire;
 
 /**
  *
- * @author Antho
+ * @author Anthony Campos
  */
 
 import javax.swing.ImageIcon;
@@ -158,10 +154,10 @@ public class SmokeOrFire {
    public void listPlayerNames(){
         int count = 1;
         String s = "";
-        //System.out.println("The Players Are:");
+        
         s += "Welcome to Smoke Or Fire" + newline  + "The Players Are:";
         for (Player player : players){
-            //System.out.println("Player" + count + ": " + player.toString());
+            
             s += newline + "Player " + count + ": " + player.toString();
             count++;
         }
@@ -295,11 +291,7 @@ public class SmokeOrFire {
    
    // Round 5 Flip a Card Action
    public void roundFive(int pileType, int positionInRow){ 
-       // my issue is a make a new pile every time. 
-       /*pileMaker(give, 3); // index 0
-       pileMaker(take, 3); // index 1
-       pileMaker(share, 3); // index 2
-       pileMaker(fuckYou, 1);*/
+      
        Card[][] piles = {this.give, this.take, this.share, this.fuckYou};
        
        roundFiveAction(piles[pileType], positionInRow, pileType);
@@ -338,7 +330,7 @@ public class SmokeOrFire {
           
      if(emptyDeck != true && check == false){
         s = newline + "No one had that Card, Draw Another Card." + newline;      
-        //reDraw(pileType);
+        
      } else if(emptyDeck == true && check != true){
          
          if(pileType == 3){
@@ -357,7 +349,7 @@ public class SmokeOrFire {
    //method the prints the action the player has to take
    public void playerAction(int pileType, Player player){
       String s = "";
-      //String[] drinkAmount = {"One", "Two", "Three"};
+  
       int[] drinkAmount = {1, 2, 3};
       if(pileType == 3){
          s += player.getName() + " Looks like you got the the Big Fuck You! Take a Shot Or Chug a Beer!";   
