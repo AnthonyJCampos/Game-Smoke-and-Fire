@@ -10,7 +10,7 @@ import javax.swing.ImageIcon;
 
 /**
  *
- * @author Antho
+ * @author Anthony Campos
  */
 public class CardImage {
     final int SIZE = 52;
