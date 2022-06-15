@@ -7,7 +7,7 @@ package game.cardgame.smokeorfire;
 
 /**
  *
- * @author Antho
+ * @author Anthony Campos
  */
 import java.util.ArrayList;
 public class Player {
